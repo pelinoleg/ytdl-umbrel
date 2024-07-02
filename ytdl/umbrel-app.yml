@@ -17,7 +17,7 @@ repo: https://github.com/pelinoleg/ytdl-umbrel
 support: https://github.com/pelinoleg/ytdl-umbrel/issues
 
 gallery:
-  -https://opengraph.githubassets.com/3768bae41750ab540576a13809813a2bd32fcce2a2d975913c7360d45b53ab7f/Tzahi12345/YoutubeDL-Material
+  - https://opengraph.githubassets.com/3768bae41750ab540576a13809813a2bd32fcce2a2d975913c7360d45b53ab7f/Tzahi12345/YoutubeDL-Material
   - https://camo.githubusercontent.com/d8872795cc966303c793d8dde00c344e8680bf1035e87b07483e90aeec2d83a9/68747470733a2f2f692e696d6775722e636f6d2f4336764647624c2e706e67
 
 releaseNotes: >-
