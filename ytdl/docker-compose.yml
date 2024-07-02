@@ -1,0 +1,27 @@
+version: "3.7"
+services:
+  ytdl_material:
+    environment:
+      ytdl_mongodb_connection_string: 'mongodb://ytdl-mongo-db:27017'
+      ytdl_use_local_db: 'false'
+      write_ytdl_config: 'true'
+    restart: always
+    depends_on:
+      - ytdl-mongo-db
+    volumes:
+      - /home/umbrel/umbrel/my-configs/youtubedl-config:/app/appdata
+      - /home/umbrel/umbrel/data/storage/youtubedl/audio:/app/audio
+      - /home/umbrel/umbrel/data/storage/youtubedl/video:/app/video
+      - /home/umbrel/umbrel/data/storage/youtubedl/subscriptions:/app/subscriptions
+      - /home/umbrel/umbrel/data/storage/youtubedl/users:/app/users
+    ports:
+      - "8998:17442"
+    image: tzahi12345/youtubedl-material:latest
+  ytdl-mongo-db:
+    image: mongo:4.4.18
+    logging:
+      driver: "none"
+    container_name: mongo-db
+    restart: always
+    volumes:
+      - /home/umbrel/umbrel/my-configs/youtubedl-config/db:/data/db

@@ -1,0 +1,28 @@
+manifestVersion: 1
+id: ytdl-material
+name: YTDL-Material
+tagline: Self-hosted YouTube downloader
+icon: https://svgshare.com/i/17pD.svg
+category: tools
+version: "1.0.0"
+port: 8998
+description: >-
+  YTDL-Material is a self-hosted YouTube downloader and manager.
+
+developer: Pelin Oleg
+website: https://github.com/pelinoleg/ytdl-umbrel
+submitter: Pelin Oleg
+submission: https://github.com/pelinoleg/ytdl-umbrel
+repo: https://github.com/pelinoleg/ytdl-umbrel
+support: https://github.com/pelinoleg/ytdl-umbrel/issues
+
+gallery:
+  - https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMpR1o5-IAHC-hY_8VhQDlssSDdeLG11NZfw&s
+  - https://camo.githubusercontent.com/d8872795cc966303c793d8dde00c344e8680bf1035e87b07483e90aeec2d83a9/68747470733a2f2f692e696d6775722e636f6d2f4336764647624c2e706e67
+
+releaseNotes: >-
+  Initial release of YTDL-Material on Umbrel.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
